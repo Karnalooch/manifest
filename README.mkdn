@@ -1,0 +1,42 @@
+OMFGB ROM FOR LG OPTIMUS ME P350
+=======================
+
+How to init repository
+----------------------
+
+You need to have your environment configured exatly like here: 
+
+   http://source.android.com/source/initializing.html 
+
+Next download a repo client (part "Installing Repo" of this link):
+
+   http://source.android.com/source/downloading.html
+
+After this steps you have everything configured and can initialize your repository for building OMFGB FOR P350
+
+First initialize local repository- this will comw with my pecan device folder and less to download AND ALSO GOD MOD SUPPORT AND MORE
+
+    repo init -u git://github.com/cipsgokhle/manifest.git
+
+Then sync up:
+
+    repo sync -j1
+
+This may took few hours depending on your internet speed.
+
+You will get full OMFGB repo with P350 device and vendor folder (device/lge/pecan)&(vendor/lge/pecan), ready to build omfgb for P350.
+
+How to build
+------------
+start the build:
+
+    
+. build/envsetup.sh
+       
+lunch OMFGB_pecan-eng
+
+     
+make j-12 bacon
+
+
+Now Andorid is building. wait untill not done then flash and enjoy
