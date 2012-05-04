@@ -8,13 +8,24 @@ OMFGB (Oh My Fucking GingerBread) is an aftermarket firmware for many Android sm
 Standard AOSP (Android Open Source Project) firmware with various modifications such as "God Mode". OMFGB was developed 
 and maintained by R2DoesInc thin mint team AND FOR LG P350 CIPSGOKHLE 
 
-    repo init -u git://github.com/cipsgokhle/manifest.git
+    
 
-Then sync up:
+Getting Started
 
-    repo sync -j1
+To get started with OMFGB  you'll need to get familiar with Git and Repo.
 
-This may took few hours depending on your internet speed.
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+repo init -u git://github.com/cipsgokhle/manifest.git
+
+Then to sync up:
+
+repo sync -j1
+
+Please see SOME Wiki PAGE for building instructions.
+
+For more information on this Github Organization and how it is structured, please read the wiki article
+
 
 
 
