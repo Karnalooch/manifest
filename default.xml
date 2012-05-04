@@ -58,7 +58,7 @@
   <project path="device/lge/star-common" name="device_lge_star-common" remote="origin" revision="master"/>
   <project path="device/lge/p999" name="device_lge_p999" remote="origin" revision="gingerbread"/>
    -->
-  <project path="device/lge/p350" name="android_device_lge_p350" remote="cips" revision="gingerbread"/>
+  <project path="device/lge/pecan" name="android_device_lge_pecan" remote="cips" revision="gingerbread"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
