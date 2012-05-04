@@ -1,20 +1,12 @@
-OMFGB ROM FOR LG OPTIMUS ME P350
+OMFGB ROM
 =======================
 
-How to init repository
+OMFGB 
 ----------------------
 
-You need to have your environment configured exatly like here: 
-
-   http://source.android.com/source/initializing.html 
-
-Next download a repo client (part "Installing Repo" of this link):
-
-   http://source.android.com/source/downloading.html
-
-After this steps you have everything configured and can initialize your repository for building OMFGB FOR P350
-
-First initialize local repository- this will comw with my pecan device folder and less to download AND ALSO GOD MOD SUPPORT AND MORE
+OMFGB (Oh My Fucking GingerBread) is an aftermarket firmware for many Android smartphones. It aims to improve upon 
+Standard AOSP (Android Open Source Project) firmware with various modifications such as "God Mode". OMFGB was developed 
+and maintained by R2DoesInc thin mint team AND FOR LG P350 CIPSGOKHLE 
 
     repo init -u git://github.com/cipsgokhle/manifest.git
 
@@ -24,19 +16,33 @@ Then sync up:
 
 This may took few hours depending on your internet speed.
 
-You will get full OMFGB repo with P350 device and vendor folder (device/lge/pecan)&(vendor/lge/pecan), ready to build omfgb for P350.
 
-How to build
+
+Development
 ------------
-start the build:
+Development originally began in late 2010 before the Gingerbread source code became available on android.git.kernel.org. 
+R2Doesinc had started with a Gingerbread SDK port. Soon after, Linuxmotion and Xoomdev joined the team. 
+On August 22, 2011 Romanbb officially joined the team as a full time and active developer.[2] 
+the core focus of the project is to improve upon the AOSP project while remaining as close to the stock Google 
+Android experience as possible. 
 
-    
-. build/envsetup.sh
-       
-lunch OMFGB_pecan-eng
+Some Features
 
-     
-make j-12 bacon
+    T-Mobile theme engine support
+    Custom launcher settings
+    Customizable lockscreens
+    Customizable status bar icons
+    The OMFGB Addons app
 
 
-Now Andorid is building. wait untill not done then flash and enjoy
+
+God Mode
+
+God Mode is an application that allows for OMFGB users to install the latest nightly (unstable) release of 
+OMFGB and install other addons. It also is a settings panel for various customisations of the device. 
+God Mode is one notable application that differentiates OMFGB from Googles AOSP source
+
+Devices supported
+
+all supported device ngightly was build by bot 
+
